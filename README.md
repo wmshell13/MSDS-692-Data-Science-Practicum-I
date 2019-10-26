@@ -4,7 +4,7 @@ The Denver Crime Analysis Project aims to create a predictive model of crime usi
 
 # Project Phases Overview
 
-This proejct followed teh OSEMN Framework nicely summarized by Dr. Cher Han Lau (Lau, 2019) which includes teh following 5 basic steps.
+This proejct followed teh OSEMN Framework nicely summarized by Dr. Cher Han Lau (located @ https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492) which includes the following 5 basic steps.
 
 1.  Obtain the Datasets
 2.  Scrub the Datasets
