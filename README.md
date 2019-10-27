@@ -52,7 +52,7 @@ As before, build a KNN Model with Target and Attribute data based on the merged 
 
 ![Performance](Performance.PNG)
 
-As seen above, Model1 had an 82% accuracy while Model2 had a 39% accuracy.  More detailed analysis of the results and discussion of the modeling performance and results are covered in the presentation found here @ 
+As seen above, Model1 had an 82% accuracy while Model2 had a 39% accuracy.  More detailed analysis of the results and discussion of the modeling performance and results are covered in the presentation found here @ https://github.com/wmshell13/MSDS-692-Data-Science-Practicum-I/blob/master/MSDS%20692%20Practicum%20I%20Presentation.pptx.  There is a narration included in presentation mode which summarizes the results.
 
 
 ## References
