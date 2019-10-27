@@ -20,40 +20,7 @@ From the City of Denver Open Data Catalog (located @ https://www.denvergov.org/o
 
 Also from the City of Denver Open Data Catalog (located @ https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-census-neighborhood-demographics-2010), "this is a dataset which includes layers from Community Planning and Development with additional demographic information compiled from the 2010 US Census. The City of Denver reports that every effort was made to ensure that blocks were assigned to their proper neighborhoods, due to geographic problems inherent in the original 2010 census block data, errors may exist. This data set includes the housing and population data from redistricting file P.L. 94-171 of the 2010 census. The data-set does not contain data for any enclaves administered by other jurisdictions that are located within the City and County of Denver's boundary."
 
-The Crime Dataset contains 512946 observations of the following 19 attributes: 
-
-1. INCIDENT_ID               512946 non-null float64
-1. OFFENSE_ID                512946 non-null float64
-1. OFFENSE_CODE              512946 non-null int64
-1. OFFENSE_CODE_EXTENSION    512946 non-null int64
-1. OFFENSE_TYPE_ID           512946 non-null object
-1. OFFENSE_CATEGORY_ID       512946 non-null object
-1. FIRST_OCCURRENCE_DATE     512946 non-null object
-1. LAST_OCCURRENCE_DATE      162450 non-null object
-1. REPORTED_DATE             512946 non-null object
-1. INCIDENT_ADDRESS          462825 non-null object
-1. GEO_X                     508707 non-null float64
-1. GEO_Y                     508707 non-null float64
-1. GEO_LON                   508707 non-null float64
-1. GEO_LAT                   508707 non-null float64
-1. DISTRICT_ID               512946 non-null int64
-1. PRECINCT_ID               512946 non-null int64
-1. NEIGHBORHOOD_ID           512946 non-null object
-1. IS_CRIME                  512946 non-null int64
-1. IS_TRAFFIC                512946 non-null int64
-
-The Census Dataset contains 78 observations of 127 different attributes.  For the sake of brevity, the 127 attributes are listed here but generally include information that identifies neighborhoods, resident gender, resident ethnicity, housing, resident age categories, and other demographic data.
-
-The final dataset is the Crime Codes Dataset which contains 299 observations of the following 8 attributes:
-
-1. OFFENSE_CODE              299 non-null int64
-1. OFFENSE_CODE_EXTENSION    299 non-null int64
-1. OFFENSE_TYPE_ID           299 non-null object
-1. OFFENSE_TYPE_NAME         299 non-null object
-1. OFFENSE_CATEGORY_ID       299 non-null object
-1. OFFENSE_CATEGORY_NAME     299 non-null object
-1. IS_CRIME                  299 non-null int64
-1. IS_TRAFFIC                299 non-null int64
+The Crime Dataset contains 512946 observations with 19 attributes associated with characterizes the type incident, whether it is criminal or traffic, and the location information associated with the incident. The Census Dataset contains 78 observations of 127 different attributes.  For the sake of brevity, the 127 attributes are listed here but generally include information that identifies neighborhoods, resident gender, resident ethnicity, housing, resident age categories, and other demographic data.  The final dataset is the Crime Codes Dataset which contains 299 observations of the following 8 attributes:
 
 ## Scrub the Data
 
