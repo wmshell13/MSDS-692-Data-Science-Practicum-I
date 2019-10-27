@@ -12,7 +12,7 @@ It is worth noting that any project of this nature (and far more complex) will o
 
 ## Obtain the Data
 
-![OSEMN Framework](Obtain.PNG)
+![Obtain the Data](Obtain.PNG)
 
 As noted above, there are three data sets being used in this analysis the crime data from the City of Denver Open Data Catalog, the City of Denver 2010 Census Data, and the City of Denver Offense Codes.
 
@@ -57,7 +57,7 @@ The final dataset is the Crime Codes Dataset which contains 299 observations of 
 
 ## Scrub the Data
 
-![OSEMN Framework](Scrub.PNG)
+![Scrub the Data](Scrub.PNG)
 
 The first step in scrubbing the data was to identify and address missing values.  The missing values within the crime data set are constrained to the LAST_OCCURENCE_DATE, INCIDENT_ADDRESS, GEO_X, GEO_Y, GEO_LON, and GEO_LAT.  The analysis focuses on using the FIRST_OCCURENCE_DATE for time values and thus is not required for the analysis.  INCIDENT_ADDRESS is not always known or reported; however, it is redundant in this analysis because NEIGHBORHOOD_ID is used for location information.  Similarly, and the GEO_* information is not required and so these attributes are all dropped from the merged data set.
 
@@ -65,7 +65,12 @@ Additionally, several of the attribute had "-" embeded in the text of each which
 
 ## Exploratory Data Analysis
 
-![OSEMN Framework](crimeWordCloud.PNG)
+![Exploratory Data Analysis](EDA.PNG)
+
+The EDA had three elements to it.  First, it took a look at the types of incidents and there frequency by count of INCIDENT_ID.  An example of the data is represented below in word cloud.
+
+![Crime Data Cloud](crimeWordCloud.PNG)
+
 
 
 ## Obtain the Data
