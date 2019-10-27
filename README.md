@@ -61,7 +61,7 @@ The final dataset is the Crime Codes Dataset which contains 299 observations of 
 
 The first step in scrubbing the data was to identify and address missing values.  The missing values within the crime data set are constrained to the LAST_OCCURENCE_DATE, INCIDENT_ADDRESS, GEO_X, GEO_Y, GEO_LON, and GEO_LAT.  The analysis focuses on using the FIRST_OCCURENCE_DATE for time values and thus is not required for the analysis.  INCIDENT_ADDRESS is not always known or reported; however, it is redundant in this analysis because NEIGHBORHOOD_ID is used for location information.  Similarly, and the GEO_* information is not required and so these attributes are all dropped from the merged data set.
 
-Additionally, several of the attribute had "-" embeded in the text of each which was replaced with a space as well as the first letter was capitalized.  Finally, the NEIGHBORHOOD_ID attribute (which is common accross the crimes data set and the census data set) required changing to match exactly as the neighborhood naming convention was slightly different from the two data sets.
+Additionally, several of the attribute had "-" embeded in the text of each which was replaced with a space as well as the first letter was capitalized.  Finally, the NEIGHBORHOOD_ID attribute (which is common accross the crimes data set and the census data set) required changing to match exactly as the neighborhood naming convention was slightly different from the two data sets.  Finally, the LAST_OCCURENCE_DATE attribute was converted from an object to a datetime prior to a left join (crimes data <- census data).
 
 ## Exploratory Data Analysis
 
