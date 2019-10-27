@@ -12,6 +12,8 @@ This proejct followed teh OSEMN Framework nicely summarized by Dr. Cher Han Lau 
 4.  Model Creation
 5.  Summary & Results Analysis
 
+![OSEMN Framework]()
+
 It is worth noting that any project of this nature (and far more complex) will often be iterative.  It may be that upon completion of the data cleansing the data scientist determines more data is required to properly complete the objectives of the project.  Likewise, during the EDA phase, one may determine the cleaning process needs to be performed over again because bad data is skewing the results and so on.  Due to time constraints, an appropriate level of iteration was not undertaken and basis for improvement on the foundation this project provides.
 
 ## Obtain the Data
