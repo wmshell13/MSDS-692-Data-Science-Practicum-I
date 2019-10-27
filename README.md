@@ -48,15 +48,11 @@ Selecting the correct value of K for the K Nearest Neighbor algorihm is importan
 
 To find the optimal value of K, I used Cross Validation. Define a range of K values to test and determine the best number of neighbors.  The code below loops through this range and calculates the accuracy.  While accuracy may not be the overall best measure of the quality of a solution, it is useful as relative measure between similar models for the purposes of identifying a K value.
 
-As before, build a KNN Model with Target and Attribute data based on the merged data set.  This second Model will look at the OFFENSE_CATEGORY_ID variable and attempt to accurately classify the type of incident that has occurred (e.g. larceny) rather than just is it a traffic incident or a criminal incident. This KNN model will be denoted as Model2.
+As before, build a KNN Model with Target and Attribute data based on the merged data set.  This second Model will look at the OFFENSE_CATEGORY_ID variable and attempt to accurately classify the type of incident that has occurred (e.g. larceny) rather than just is it a traffic incident or a criminal incident. This KNN model will be denoted as Model2.  In Model2 I am removing all the attributes which are redundant to the OFFENSE_CATEGORY_ID category (e.g. OFFENSE_ID) because these are clear criminal and non-criminal codes.
 
-In Model2 I am removing all the attributes which are redundant to the OFFENSE_CATEGORY_ID category (e.g. OFFENSE_ID) because these are clear criminal and non-criminal codes.
+![Performance](Performance.PNG)
 
-![Model](Modeling.PNG)
-
-
-## Obtain the Data
-
+As seen above, Model1 had an 82% accuracy while Model2 had a 39% accuracy.  More detailed analysis of the results and discussion of the modeling performance and results are covered in the presentation found here @ 
 
 
 ## References
