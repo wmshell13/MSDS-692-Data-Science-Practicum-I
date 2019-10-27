@@ -56,8 +56,6 @@ As seen above, Model1 had an 82% accuracy while Model2 had a 39% accuracy.  More
 
 
 ## References
-Lau, C. H. (2019, January 10). 5 Steps of a Data Science Project Lifecycle. Retrieved from https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
-
 Denver Open Data Catalog: Crime. (n.d.). Retrieved from https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-crime
 
 Dr. Cher Han Lau. (2019, January 10). 5 Steps of a Data Science Project Lifecycle. Retrieved from https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
