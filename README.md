@@ -36,7 +36,23 @@ Additionally, several of the attribute had "-" embeded in the text of each which
 
 The EDA had three elements to it.  First, it took a look at the types of incidents and there frequency by count of INCIDENT_ID.  An example of the data is represented below in word cloud.  The analysis also examined time effects on crime as the bar chart which shows the hourly distribution of incidents across the data set.  Lastly, the analysis examined the demographic makeup of each neighborhood which corresponds to the neighborhood information within the crime data set.
 
-## Result
+## Modeling and Results
+
+![Model](Modeling.PNG)
+
+Build a KNN Model with Target and Attribute data based on the merged data set.  The first Model will look at the IS_CRIME variable and attempt to predic when an incident is categorized as a crime versus those incidents where it is purely a traffic incident. This KNN model will be denoted as Model1.
+
+In Model1 I am removing all the attributes which are redundant to the IS_CRIME category (e.g. OFFENSE_ID) because these are clear criminal and non-criminal codes.  A machine learning algorithm which used these attributes would be trivial in nature.
+
+Selecting the correct value of K for the K Nearest Neighbor algorihm is important for any given solution to work as best as possible.  If K is too small, noise will unduly influence the result and thus one risks overfitting the problem.  A value of K that is too large becomes computationally expensive and undermines the theory points near are of similar groups.
+
+To find the optimal value of K, I used Cross Validation. Define a range of K values to test and determine the best number of neighbors.  The code below loops through this range and calculates the accuracy.  While accuracy may not be the overall best measure of the quality of a solution, it is useful as relative measure between similar models for the purposes of identifying a K value.
+
+As before, build a KNN Model with Target and Attribute data based on the merged data set.  This second Model will look at the OFFENSE_CATEGORY_ID variable and attempt to accurately classify the type of incident that has occurred (e.g. larceny) rather than just is it a traffic incident or a criminal incident. This KNN model will be denoted as Model2.
+
+In Model2 I am removing all the attributes which are redundant to the OFFENSE_CATEGORY_ID category (e.g. OFFENSE_ID) because these are clear criminal and non-criminal codes.
+
+![Model](Modeling.PNG)
 
 
 ## Obtain the Data
