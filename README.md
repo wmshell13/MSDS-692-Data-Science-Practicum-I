@@ -65,7 +65,7 @@ Additionally, several of the attribute had "-" embeded in the text of each which
 
 ## Exploratory Data Analysis
 
-
+![OSEMN Framework](crimeWordCloud.PNG)
 
 
 ## Obtain the Data
