@@ -6,17 +6,13 @@ The Denver Crime Analysis Project aims to create a predictive model of crime usi
 
 This proejct followed teh OSEMN Framework nicely summarized by Dr. Cher Han Lau (located @ https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492) which includes the following 5 basic steps.
 
-1.  Obtain the Datasets
-2.  Scrub the Datasets
-3.  Exploratory Data Analysis
-4.  Model Creation
-5.  Summary & Results Analysis
-
 ![OSEMN Framework](OSEMN.PNG)
 
 It is worth noting that any project of this nature (and far more complex) will often be iterative.  It may be that upon completion of the data cleansing the data scientist determines more data is required to properly complete the objectives of the project.  Likewise, during the EDA phase, one may determine the cleaning process needs to be performed over again because bad data is skewing the results and so on.  Due to time constraints, an appropriate level of iteration was not undertaken and basis for improvement on the foundation this project provides.
 
 ## Obtain the Data
+
+![OSEMN Framework](Obtain.PNG)
 
 From the City of Denver Open Data Catalog (located @ https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-crime)," this dataset includes criminal offenses in the City and County of Denver for the previous five calendar years plus the current year to date. The data is based on the National Incident Based Reporting System (NIBRS) which includes all victims of person crimes and all crimes within an incident. These data are dynamic, which allows for additions, deletions and/or modifications at any time, resulting in more accurate information in the database. Due to continuous data entry, the number of records in subsequent extractions are subject to change. Crime data is updated Monday through Friday."
 
@@ -58,6 +54,22 @@ The final dataset is the Crime Codes Dataset which contains 299 observations of 
 1. OFFENSE_CATEGORY_NAME     299 non-null object
 1. IS_CRIME                  299 non-null int64
 1. IS_TRAFFIC                299 non-null int64
+
+## Scrub the Data
+
+![OSEMN Framework](Scrub.PNG)
+
+
+
+## Obtain the Data
+
+
+## Obtain the Data
+
+
+## Obtain the Data
+
+
 
 ## References
 Lau, C. H. (2019, January 10). 5 Steps of a Data Science Project Lifecycle. Retrieved from https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
