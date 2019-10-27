@@ -71,6 +71,9 @@ The EDA had three elements to it.  First, it took a look at the types of inciden
 
 ![Crime Word Cloud](crimeWordCloud.PNG)
 
+The analysis also examined time effects on crime as the bar chart which shows the hourly distribution of incidents across the data set.
+
+![Incident Frequency By Hour](incidentFreqCountHourBar.PNG)
 
 ## Obtain the Data
 
