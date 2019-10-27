@@ -69,8 +69,7 @@ Additionally, several of the attribute had "-" embeded in the text of each which
 
 The EDA had three elements to it.  First, it took a look at the types of incidents and there frequency by count of INCIDENT_ID.  An example of the data is represented below in word cloud.
 
-![Crime Data Cloud](crimeWordCloud.PNG)
-
+![Crime Word Cloud](crimeWordCloud.PNG)
 
 
 ## Obtain the Data
