@@ -34,15 +34,9 @@ Additionally, several of the attribute had "-" embeded in the text of each which
 
 ![Exploratory Data Analysis](EDA.PNG)
 
-The EDA had three elements to it.  First, it took a look at the types of incidents and there frequency by count of INCIDENT_ID.  An example of the data is represented below in word cloud.
+The EDA had three elements to it.  First, it took a look at the types of incidents and there frequency by count of INCIDENT_ID.  An example of the data is represented below in word cloud.  The analysis also examined time effects on crime as the bar chart which shows the hourly distribution of incidents across the data set.  Lastly, the analysis examined the demographic makeup of each neighborhood which corresponds to the neighborhood information within the crime data set.
 
-![Crime Word Cloud](crimeWordCloud.PNG)
-
-The analysis also examined time effects on crime as the bar chart which shows the hourly distribution of incidents across the data set.
-
-![Incident Frequency By Hour](incidentFreqCountHourBar.PNG)
-
-## Obtain the Data
+## Result
 
 
 ## Obtain the Data
