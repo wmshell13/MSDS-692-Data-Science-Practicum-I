@@ -58,4 +58,20 @@ As seen above, Model1 had an 82% accuracy while Model2 had a 39% accuracy.  More
 ## References
 Lau, C. H. (2019, January 10). 5 Steps of a Data Science Project Lifecycle. Retrieved from https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
 
+Denver Open Data Catalog: Crime. (n.d.). Retrieved from https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-crime
+
+Dr. Cher Han Lau. (2019, January 10). 5 Steps of a Data Science Project Lifecycle. Retrieved from https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
+
+Generating WordClouds in Python. (n.d.). Retrieved from https://www.datacamp.com/community/tutorials/wordcloud-python
+
+Petrou, T. (2019, October 1). Selecting Subsets of Data in Pandas: Part 1. Retrieved from https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c
+
+Python | Pandas DataFrame. (n.d.). Retrieved from https://www.geeksforgeeks.org/python-pandas-dataframe/
+
+Sharma, M. (2018, November 3). Data Visualization using Seaborn. Retrieved from https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850
+
+Style sheets reference — Matplotlib 3.1.1 documentation. (n.d.). Retrieved from https://matplotlib.org/3.1.1/gallery/style_sheets/style_sheets_reference.html
+
+Summarising, Aggregating, and Grouping data in Python Pandas. (2019, October 6). Retrieved from https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
+
 
